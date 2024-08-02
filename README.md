@@ -1,3 +1,7 @@
+## permitir repo inseguros (usar con precaucion)
+```
+sudo apt-get update --allow-insecure-repositories
+```
 ## Hostname ip
 ```
 hostname -I
