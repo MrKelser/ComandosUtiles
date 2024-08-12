@@ -61,3 +61,7 @@ network:
 ```
 sudo netplan apply
 ```
+## Para copiar archivos y preserver los permisos
+```
+cp -p [Source_file] [Destination_file]
+```
