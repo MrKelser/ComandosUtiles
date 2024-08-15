@@ -65,10 +65,11 @@ sudo netplan apply
 ```
 cp -p [Source_file] [Destination_file]
 ```
-## Crear un nuevo usuario y agregarle una contraseña
+## Crear un nuevo usuario, darle una contraseña y permisos de sudo
 ```
 sudo useradd -m username
 sudo passwd username
+sudo usermod -aG sudo username
 ```
 ## Para deshabilitar el apagado de equipo/notebook al cerrar tapa
 ```
