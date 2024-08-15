@@ -68,7 +68,7 @@ cp -p [Source_file] [Destination_file]
 ## Crear un nuevo usuario y agregarle una contraseña
 ```
 sudo useradd -m username
-sudo passwd
+sudo passwd username
 ```
 ## Para deshabilitar el apagado de equipo/notebook al cerrar tapa
 ```
