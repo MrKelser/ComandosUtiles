@@ -65,3 +65,8 @@ sudo netplan apply
 ```
 cp -p [Source_file] [Destination_file]
 ```
+## Crear un nuevo usuario y agregarle una contraseña
+```
+sudo useradd nombre_user
+sudo passwd
+```
