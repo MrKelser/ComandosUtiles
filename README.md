@@ -70,3 +70,21 @@ cp -p [Source_file] [Destination_file]
 sudo useradd nombre_user
 sudo passwd
 ```
+## Para deshabilitar el apagado de equipo/notebook al cerrar tapa
+```
+sudo nano /etc/systemd/logind.conf
+```
+## Para detener todo proceso de algun usuario
+```
+sudo killall -u username
+```
+## Para borrar algun usuario 
+```
+sudo userdel -r -f username
+```
+### Modificar/agregar
+```
+HandleLidSwitch=suspend >> HandleLidSwitch=ignore
+LidSwitchIgnoreInhibited=yes >> LidSwitchIgnoreInhibited=no
+reboot
+```
